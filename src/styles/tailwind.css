@@ -648,16 +648,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
 /* About section */
 
 #about {
   width: 100%;
-  /* Aligns the children items in a row direction */
   display: flex;
 }
 
@@ -689,7 +683,7 @@ video {
 /* Education section */
 
 .card {
-  background: palegreen;
+  background: blue;
   width: 85%;
   margin: 20px;
   border-radius: 16px;
@@ -721,7 +715,6 @@ video {
 
 #skills {
   width: 90%;
-  background: palegreen;
   margin-left: 10px;
   display: flex;
   margin: 20px;
@@ -840,7 +833,7 @@ footer{
 
   #about-img-column {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
   }
 
   #me-img {

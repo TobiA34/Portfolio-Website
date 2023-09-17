@@ -4,27 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./src/normalize.css">
-    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="output.css"/>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- About Section -->
     <div id="about">
-        <div id="about-p-column">
-            <br>
-            <br>
-            <h2 id="about-title">Hi, my name is</h2>
-            <br>
-            <h2 id="about-sub-title">Tobi Adegoroye</h2>
-            <br>
-            <p id="about-paragraph"> I am a Frontend Developer.Hardworking and focused. In my spare time i work on my HTML, CSS, JAVASCRIPT Skills.</p>
-            <br>
-            <br>
-            <a href="#contact-form"><button class="rounded-button">Hire Me</button></a>
-        </div>
         <div id="about-img-column">
             <img src="assets/me.jpg" id="me-img" alt="">
         </div>
+        <div id="about-p-column">
+            <h2 id="about-title">Hi, my name is</h2>
+            <h2 id="about-sub-title">Tobi Adegoroye</h2>
+            <br>
+            <p class="wrapWord" ="about-paragraph"> I am a Frontend Developer.Hardworking and focused.<br>In my spare time i work on my <strong>HTML</strong>,<strong>CSS</strong> ,<strong>Javascript</strong> Skills.</p>
+            <a href="#contact-form"><button class="rounded-button">Hire Me</button></a>
+        </div>
+
     </div>
 
     <!-- Education section -->
@@ -101,7 +98,7 @@
             <br>
             <br>
         <button type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Submit</button>
 
             <br>
         </form>
